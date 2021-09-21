@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/airlift" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="118dp"
+        android:layout_toStartOf="@+id/textView58"
+        android:layout_toLeftOf="@+id/textView58"
+        android:background="@color/green_800"
+        android:text="Cabin Baggage"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="152dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/textView55"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="44dp"
+        android:layout_toStartOf="@+id/textView59"
+        android:layout_toLeftOf="@+id/textView59"
+        android:background="@color/green_800"
+        android:text="Check-in Baggage"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="141dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/textView56"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="27dp"
+        android:layout_toStartOf="@+id/textView60"
+        android:layout_toLeftOf="@+id/textView60"
+        android:background="@color/green_800"
+        android:text="Airline/Flight ID"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="196dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="125dp"
+        android:text="7kg"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="222dp"
+        android:layout_height="52dp"
+        android:layout_above="@+id/textView58"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="57dp"
+        android:text="15kg"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="218dp"
+        android:layout_height="52dp"
+        android:layout_above="@+id/textView59"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="36dp"
+        android:text="101"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="258dp"
+        android:layout_height="74dp"
+        android:layout_above="@+id/textView60"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="129dp"
+        android:layout_marginRight="129dp"
+        android:layout_marginBottom="55dp"
+        android:text="BAGGAGE DETAILS"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/textView60"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="70dp"
+        app:srcCompat="@drawable/airlogo" />
+</RelativeLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First1">
+
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/air5" />
+
+    <TextView
+        android:id="@+id/tv_flight"
+        android:layout_width="258dp"
+        android:layout_height="78dp"
+        android:layout_above="@+id/actv1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="83dp"
+        android:layout_marginBottom="46dp"
+        android:text="Book Flight"
+        android:textSize="45sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/image0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_flight"
+        android:layout_alignRight="@id/tv_flight"
+        android:layout_alignBottom="@id/tv_flight"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="-16dp"
+        android:layout_marginBottom="1dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_bookflight" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actv1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/actv2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginBottom="7dp"
+        android:hint="From"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image1"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/actv1"
+        android:layout_alignBottom="@id/actv1"
+        android:layout_alignRight="@id/actv1"
+        android:src="@drawable/ic_dropdown"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/actv2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="107dp"
+        android:layout_marginBottom="239dp"
+        android:hint="To"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image2"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/actv2"
+        android:layout_alignBottom="@id/actv2"
+        android:layout_alignRight="@id/actv2"
+        android:src="@drawable/ic_dropdown"/>
+
+
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="174dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/button_rounded"
+        android:text="Next"
+        android:textSize="23dp"
+        android:onClick="next"/>
+
+    <TextView
+        android:id="@+id/tv_depart"
+        android:layout_width="171dp"
+        android:layout_height="49dp"
+        android:layout_above="@+id/nextButton"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="137dp"
+        android:layout_toStartOf="@+id/tv_return"
+        android:layout_toLeftOf="@+id/tv_return"
+        android:text="Depart Date:"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="75dp"
+        android:layout_height="54dp"
+        android:layout_alignTop="@+id/tv_depart"
+        android:layout_alignRight="@id/tv_depart"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="58dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_calender" />
+
+    <TextView
+        android:id="@+id/tv_return"
+        android:layout_width="161dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/nextButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="134dp"
+        android:text="Return Date:"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="69dp"
+        android:layout_height="53dp"
+        android:layout_alignTop="@+id/tv_return"
+        android:layout_alignRight="@id/tv_return"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="44dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_calender" />
+
+    <EditText
+        android:id="@+id/ed_date1"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextButton"
+        android:layout_marginBottom="38dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Select Date:"
+        android:textSize="22sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/ed_date2"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Select Date:"
+        android:textSize="22sp"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>

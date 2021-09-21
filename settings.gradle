@@ -1,0 +1,2 @@
+rootProject.name = "JetTech2"
+include ':app'

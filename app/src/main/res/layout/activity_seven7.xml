@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seven7">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/airlift" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="137dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="50dp"
+        android:text="Pay Now"
+        android:textSize="20sp"
+        android:background="@drawable/button_rounded"/>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="323dp"
+        android:layout_height="71dp"
+        android:layout_above="@+id/button11"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="49dp"
+        android:text="Debit/credit card"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:backgroundTint="@color/green_800"
+        android:onClick="swipe"/>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="316dp"
+        android:layout_height="66dp"
+        android:layout_above="@+id/button12"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="15dp"
+        android:text="Wallet"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:backgroundTint="@color/green_800"/>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="331dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/button13"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="17dp"
+        android:text="NetBanking"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:backgroundTint="@color/green_800"
+        />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/button14"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginBottom="23dp"
+        android:text="UPI"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:backgroundTint="@color/green_800"/>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/button15"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="48dp"
+        android:text="Choose Payment Method"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"/>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JetTech</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">FLIGHT</string>
+    <string name="tab_text_2">BAGGAGE</string>
+    <string name="tab_text_3">FARE</string>
+    <string name="tab_text_4">CANCELLATION</string>
+</resources>

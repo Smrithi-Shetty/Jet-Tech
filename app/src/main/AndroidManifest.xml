@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jettech2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JetTech2">
+        <activity
+            android:name=".TabbedActivity"
+            android:label="@string/title_activity_tabbed"
+            android:theme="@style/Theme.JetTech2.NoActionBar"></activity>
+        <activity android:name=".Nine9" />
+        <activity android:name=".Eight8" />
+        <activity android:name=".Seven7" />
+        <activity android:name=".Six6" />
+        <activity android:name=".Five5" />
+        <activity android:name=".Four4" />
+        <activity android:name=".Third3" />
+        <activity android:name=".Second2" />
+        <activity android:name=".First1" />
+        <activity android:name=".NewActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

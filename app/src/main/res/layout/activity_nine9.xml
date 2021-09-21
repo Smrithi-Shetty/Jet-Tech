@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nine9">
+
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="330dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/textView93"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:text="Booking Details"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="93dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button17"
+        android:layout_marginBottom="75dp"
+        android:text="  Mumbai"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="116dp"
+        android:layout_height="44dp"
+        android:layout_above="@+id/textView77"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp"
+        android:background="@color/black"
+        android:text="To"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button17"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginRight="171dp"
+        android:layout_marginBottom="77dp"
+        android:text="     02"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="107dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/textView80"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/black"
+        android:text="No of Tickets"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="121dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/button17"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="77dp"
+        android:text="    Paid"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="107dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/textView83"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/black"
+        android:text="Payment Status"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="86dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/textView78"
+        android:layout_marginBottom="83dp"
+        android:text="    101"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="141dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/textView84"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="78dp"
+        android:text="  Bengaluru"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="114dp"
+        android:layout_height="38dp"
+        android:layout_above="@+id/textView81"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="76dp"
+        android:layout_toStartOf="@+id/textView89"
+        android:layout_toLeftOf="@+id/textView89"
+        android:text="  2001"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="107dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/textView88"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="3dp"
+        android:background="@color/black"
+        android:text="Flight_ID"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/textView90"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="11dp"
+        android:background="@color/black"
+        android:text="From"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="132dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/textView90"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toStartOf="@+id/textView92"
+        android:layout_toLeftOf="@+id/textView92"
+        android:background="@color/black"
+        android:text="User_ID"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="111dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="homepal"
+        android:text="Back"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="139dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/textView92"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/airlogo" />
+
+    <Button
+        android:id="@+id/fetch_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:layout_marginBottom="33dp"
+        android:layout_toStartOf="@+id/button17"
+        android:layout_toLeftOf="@+id/button17"
+        android:text="Fetch Data"
+        android:background="@drawable/button_rounded"
+        android:textSize="17sp"/>
+
+</RelativeLayout>

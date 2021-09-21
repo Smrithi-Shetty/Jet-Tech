@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="106dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="86dp"
+        android:layout_toStartOf="@+id/textView48"
+        android:layout_toLeftOf="@+id/textView48"
+        android:background="@color/green_800"
+        android:text="Class"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView43"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toStartOf="@+id/textView49"
+        android:layout_toLeftOf="@+id/textView49"
+        android:background="@color/green_800"
+        android:text="Timings and Date"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="54dp"
+        android:layout_height="44dp"
+        android:layout_above="@+id/textView44"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="44dp"
+        android:layout_toStartOf="@+id/textView50"
+        android:layout_toLeftOf="@+id/textView50"
+        android:background="@color/green_800"
+        android:text="To"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="80dp"
+        android:layout_height="49dp"
+        android:layout_above="@+id/textView45"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toStartOf="@+id/textView51"
+        android:layout_toLeftOf="@+id/textView51"
+        android:background="@color/green_800"
+        android:text="From"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="126dp"
+        android:layout_height="44dp"
+        android:layout_above="@+id/textView46"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toStartOf="@+id/textView52"
+        android:layout_toLeftOf="@+id/textView52"
+        android:background="@color/green_800"
+        android:text="Flight ID:"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="220dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="73dp"
+        android:text="Economy/First/Business"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_above="@+id/textView48"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="24dp"
+        android:text="5:30:59 ; 20/8/2021"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="352dp"
+        android:layout_height="73dp"
+        android:layout_above="@+id/textView49"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginRight="-6dp"
+        android:layout_marginBottom="27dp"
+        android:text="Mumbai(Chhatrapati Shivaji International Airport)-Terminal 2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView50"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="41dp"
+        android:text="Bengaluru(Kempegowda International Airport)-Terminal 1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="265dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/textView51"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="17dp"
+        android:text="101"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="227dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/textView52"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="33dp"
+        android:layout_toStartOf="@+id/imageView6"
+        android:layout_toLeftOf="@+id/imageView6"
+        android:text="FLIGHT DETAILS"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="61dp"
+        android:layout_above="@+id/textView52"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/airlogo" />
+</RelativeLayout>
